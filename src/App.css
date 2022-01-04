@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: whitesmoke;
+  user-select: none;
+}
+.container {
+  height: 40vh;
+  /* width: 40vw; */
+  display: grid;
+  justify-content: center;
+  align-content: space-evenly;
+  /* border: 2px solid green; */
+  user-select: none;
+}
+.heading {
+  font-family: cursive;
+}
+.quantity {
+  font-size: 30px;
+  font-weight: 700;
+}
+a:hover {
+  cursor: pointer;
+}
